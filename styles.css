@@ -42,6 +42,11 @@ section:first-of-type {
 }
 
 @media (max-width: 768px) {
+
+    .modal {
+        width: 100% !important;
+    }
+
     .subscription {
         padding: 1rem;
         text-align: center !important;
@@ -81,4 +86,22 @@ section:first-of-type {
 .form-control::placeholder {
     color: #ffc107 !important;
     opacity: 1;
-  }
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffc107;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e6ac00;
+}
